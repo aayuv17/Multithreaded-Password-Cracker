@@ -20,7 +20,7 @@ public class Server
 		Scanner sc=new Scanner(System.in);
 		actualPassword=sc.next();
 		System.out.println("Actual Password: " + actualPassword);
-		if(actualPassword.length()<5 || actualPassword.length()>8)
+		if(actualPassword.length()<5 || actualPassword.length()>6)
 		{
 			System.out.println("Password not within proper length range");
 			System.exit(0);
