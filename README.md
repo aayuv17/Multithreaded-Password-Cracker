@@ -8,6 +8,7 @@ The objective of this project is to design a password cracker that implements th
 When run, the server will ask user for a password. The password entered must have the following properties:
 - Must be of length 5-6 characters.
 - Must contain only digits (0-9) and small case alphabets (a-z)
+
 After accepting the password, the server combines the password and the system date and generates an MD5 hash of the same. Each time a new client requests the server for connection, the server establishes a new thread for communication with the client. After the connection between the worker client and server is established, the server sends a hashed password and a range to the client. The client tries to generate all passwords within the given range and compare them to the hashed password. If a generated password matches the hashed password sent by the server it means that the client has successfully cracked the password and it notifies the server about the same. If the client is unable to crack the password successfully, it terminates with a failure message. 
 
 ## Additional Notes
