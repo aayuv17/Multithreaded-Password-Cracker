@@ -14,6 +14,3 @@ After accepting the password, the server combines the password and the system da
 
 ## Additional Notes
 This password cracker is written in Java hence it is essential to install a JDK to run it. It consists of two programs named server and client. The server has to be run first and kept alive for the password cracking to take place smoothly. Since this password cracker incorporates multithreading, multiple clients can be run simultaneously.
-
-## Future Work
-- Make it possible to crack all passwords irrespective of length/characters used
