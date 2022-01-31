@@ -1,5 +1,5 @@
-# Java-Password-Cracker
-A distributed password cracker implemented using Java
+# Multithreaded-Password-Cracker
+A multithreaded password cracker implemented using Java
 
 ## Introduction
 
